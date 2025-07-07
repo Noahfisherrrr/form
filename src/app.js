@@ -28,8 +28,8 @@ document.getElementById('login').addEventListener('submit', function(event) {
     }
 
     // password
-    if (passwordValue.length < 6) {
-        password.setCustomValidity("Password must be at least 6 characters long");
+    if (passwordValue.length < 8) {
+        password.setCustomValidity("Password must be at least 8 characters long");
         isValid = false;
     } else {
         password.setCustomValidity("");
